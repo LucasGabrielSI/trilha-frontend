@@ -1,14 +1,43 @@
-#banner {
+header {
+    background-color: #CCCCCC;
+}
+
+.container-menu {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    top: 110px;
+    right: 0;
+    position: absolute;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+nav a:hover {
+    color: #C78C19;
+}
+
+.banner {
     width: 100%; 
 }
 
 .main {
     background-color: #cccccc;
     padding: 30px;
-}
-
-.main-title {
-    padding-left: 20px;
 }
 
 .centralized-title {
@@ -36,7 +65,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.benefits-list {
     display: inline-block;
     vertical-align: top;
     width: 20%;
