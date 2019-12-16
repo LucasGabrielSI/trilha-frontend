@@ -1,0 +1,77 @@
+header {
+    background-color: #CCCCCC;
+}
+
+.container-menu {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    top: 110px;
+    right: 0;
+    position: absolute;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+nav a:hover {
+    color: #C78C19;
+}
+
+.banner {
+    width: 100%; 
+}
+
+.main {
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+.centralized-title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#mission {
+    font-size: 20px;
+}
+
+em strong {
+    color: #ff0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.benefits {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.benefits-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.img-benefits {
+    width: 50%;
+}
