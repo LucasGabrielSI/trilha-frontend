@@ -96,11 +96,6 @@ footer {
     margin-top: 20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 } 
@@ -167,6 +162,17 @@ td, th {
     text-align: center;
 }
 
+.main-title:first-letter {
+    font-weight: bold;
+}
+
+.main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 2em 0;
+    background: #fEFEFE;
+}
+
 .main p {
     margin-bottom: 1em;
 }
@@ -187,6 +193,12 @@ td, th {
 
 .map {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.map-content {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .map p {
@@ -196,6 +208,7 @@ td, th {
 
  .benefits {
      padding: 3em 0;
+     background: #888888;
  }
 
 .benefits-content {
@@ -207,6 +220,18 @@ td, th {
     width: 40%;
     vertical-align: top;
     display: inline-block;
+}
+
+.itens {
+    line-height: 1.5em;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens::before {
+    content: "⭑ "
 }
 
 .img-benefits {
